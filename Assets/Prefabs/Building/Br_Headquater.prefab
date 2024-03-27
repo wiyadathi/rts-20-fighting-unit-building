@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 6460026048174757866}
   - component: {fileID: 2437199770047573145}
   m_Layer: 7
-  m_Name: Headquater
+  m_Name: Br_Headquater
   m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,13 +158,15 @@ MonoBehaviour:
   spawnPoint: {fileID: 6708979184777003921}
   rallyPoint: {fileID: 1190058609449148673}
   unitPrefabs:
-  - {fileID: 186328, guid: 23eba7a7c1e6c0f47af632af6c7f1f87, type: 3}
   - {fileID: 186328, guid: 23a54e6b8db60dc4b841b2f9cd0baa35, type: 3}
   recruitList: []
   unitTimer: 0
   curUnitProgress: 0
   curUnitWaitTime: 0
   isFunctional: 0
+  isHQ: 1
+  isHousing: 0
+  isBarrack: 0
   intoTheGround: 5
 --- !u!65 &3010385698408636223
 BoxCollider:
