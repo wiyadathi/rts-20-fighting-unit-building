@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2522057948327680648}
   - component: {fileID: 6165754371393578527}
   - component: {fileID: 4983609233676518854}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 2710233255041134416}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.5, y: 1, z: 3.5}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
+  m_LocalScale: {x: 3, y: 1, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4963824713683300511}
@@ -115,7 +115,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7022205317424361544}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Component
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6959227294952189581}
@@ -165,9 +165,9 @@ GameObject:
   - component: {fileID: 5700208806010557302}
   - component: {fileID: 2082698721260249278}
   - component: {fileID: 2826189784560905955}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Br_FortTower_Ghost
-  m_TagString: Untagged
+  m_TagString: GhostBuilding
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -283,6 +283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Cannon_07
       objectReference: {fileID: 0}
+    - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 433856, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_RootOrder
       value: 124
@@ -357,6 +361,10 @@ PrefabInstance:
     - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Cannon_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 433856, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_RootOrder
@@ -433,6 +441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Cannon_06
       objectReference: {fileID: 0}
+    - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 433856, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_RootOrder
       value: 131
@@ -506,11 +518,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2615975042595588661, guid: 2656fbd6d99dd42489f270d6a2ecfbc3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 2615975042595588661, guid: 2656fbd6d99dd42489f270d6a2ecfbc3, type: 3}
       propertyPath: m_LocalScale.z
-      value: 4
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 2615975042595588661, guid: 2656fbd6d99dd42489f270d6a2ecfbc3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -557,6 +569,10 @@ PrefabInstance:
       value: UnitSelection
       objectReference: {fileID: 0}
     - target: {fileID: 6539628366457385943, guid: 2656fbd6d99dd42489f270d6a2ecfbc3, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6539628366457385943, guid: 2656fbd6d99dd42489f270d6a2ecfbc3, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -581,6 +597,10 @@ PrefabInstance:
     - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Cannon_17 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 433856, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_RootOrder
@@ -657,6 +677,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Cannon_09
       objectReference: {fileID: 0}
+    - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 433856, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_RootOrder
       value: 121
@@ -731,6 +755,10 @@ PrefabInstance:
     - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Cannon_07 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 433856, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_RootOrder
@@ -807,6 +835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Cannon_15
       objectReference: {fileID: 0}
+    - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 433856, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_RootOrder
       value: 108
@@ -881,6 +913,10 @@ PrefabInstance:
     - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Cannon_10 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 433856, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_RootOrder
@@ -957,6 +993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Fort_Door_09
       objectReference: {fileID: 0}
+    - target: {fileID: 139618, guid: 190d4f5956778ad4187f87bab391090c, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 413402, guid: 190d4f5956778ad4187f87bab391090c, type: 3}
       propertyPath: m_RootOrder
       value: 212
@@ -1031,6 +1071,10 @@ PrefabInstance:
     - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Cannon_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 433856, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_RootOrder
@@ -1107,6 +1151,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Cannon_09 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 433856, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_RootOrder
       value: 121
@@ -1178,6 +1226,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7022205317424361544}
     m_Modifications:
+    - target: {fileID: 182560, guid: f13660f99fcad8047a78a78d1dc1d46a, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 491736, guid: f13660f99fcad8047a78a78d1dc1d46a, type: 3}
       propertyPath: m_RootOrder
       value: 254
@@ -1252,6 +1304,10 @@ PrefabInstance:
     - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Cannon_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 433856, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_RootOrder
@@ -1328,6 +1384,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Cannon_06 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 433856, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_RootOrder
       value: 131
@@ -1403,6 +1463,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Cannon_16
       objectReference: {fileID: 0}
+    - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 433856, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_RootOrder
       value: 107
@@ -1477,6 +1541,10 @@ PrefabInstance:
     - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Cannon_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 169560, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 433856, guid: 04e5ad3b4d0e23842a04b203a7ef5e46, type: 3}
       propertyPath: m_RootOrder

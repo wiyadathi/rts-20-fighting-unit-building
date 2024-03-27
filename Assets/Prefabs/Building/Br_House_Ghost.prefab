@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1589499822687600554}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Components
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,9 +85,9 @@ GameObject:
   - component: {fileID: 3010385698408636223}
   - component: {fileID: 6460026048174757866}
   - component: {fileID: 1596205895934138544}
-  m_Layer: 7
+  m_Layer: 2
   m_Name: Br_House_Ghost
-  m_TagString: Building
+  m_TagString: GhostBuilding
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 9138796316069918801}
   - component: {fileID: 6118200929914466428}
   - component: {fileID: 7350968670039155695}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -333,6 +333,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Vines_Wall_27
       objectReference: {fileID: 0}
+    - target: {fileID: 161636, guid: e083095d1873f8b488e6381dbb9c2c15, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 433452, guid: e083095d1873f8b488e6381dbb9c2c15, type: 3}
       propertyPath: m_RootOrder
       value: 648
@@ -392,6 +396,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1589499822687600554}
     m_Modifications:
+    - target: {fileID: 129692, guid: 9f9e04b362343df49bf493726e4974e9, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 481778, guid: 9f9e04b362343df49bf493726e4974e9, type: 3}
       propertyPath: m_RootOrder
       value: 386
@@ -454,6 +462,10 @@ PrefabInstance:
     - target: {fileID: 147578, guid: 490c945eb7eda5f49a733dd95201f33f, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Window_24
+      objectReference: {fileID: 0}
+    - target: {fileID: 147578, guid: 490c945eb7eda5f49a733dd95201f33f, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 477376, guid: 490c945eb7eda5f49a733dd95201f33f, type: 3}
       propertyPath: m_RootOrder
@@ -518,6 +530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Lantern_Attachment_18
       objectReference: {fileID: 0}
+    - target: {fileID: 145908, guid: bb677ec00087db84e9c3dcc9bb02a479, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 418664, guid: bb677ec00087db84e9c3dcc9bb02a479, type: 3}
       propertyPath: m_RootOrder
       value: 466
@@ -581,6 +597,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Vines_Wall_37
       objectReference: {fileID: 0}
+    - target: {fileID: 161636, guid: e083095d1873f8b488e6381dbb9c2c15, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 433452, guid: e083095d1873f8b488e6381dbb9c2c15, type: 3}
       propertyPath: m_RootOrder
       value: 320
@@ -640,6 +660,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1589499822687600554}
     m_Modifications:
+    - target: {fileID: 191760, guid: 221583981c85951478a5a80ca08b9a6d, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 455316, guid: 221583981c85951478a5a80ca08b9a6d, type: 3}
       propertyPath: m_RootOrder
       value: 381
@@ -702,6 +726,10 @@ PrefabInstance:
     - target: {fileID: 118094, guid: 366500f45afe5254fa03c07da019e6b8, type: 3}
       propertyPath: m_Name
       value: SM_Prop_FlowerHanging_27
+      objectReference: {fileID: 0}
+    - target: {fileID: 118094, guid: 366500f45afe5254fa03c07da019e6b8, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 499884, guid: 366500f45afe5254fa03c07da019e6b8, type: 3}
       propertyPath: m_RootOrder
@@ -766,6 +794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Chimney_12
       objectReference: {fileID: 0}
+    - target: {fileID: 178984, guid: fba205c40ba110a46a927545d22de348, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 417874, guid: fba205c40ba110a46a927545d22de348, type: 3}
       propertyPath: m_RootOrder
       value: 472
@@ -828,6 +860,10 @@ PrefabInstance:
     - target: {fileID: 136400, guid: ee5f49d0f8acb304ba1261974e07f3c9, type: 3}
       propertyPath: m_Name
       value: SM_Prop_ClothesLine_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 136400, guid: ee5f49d0f8acb304ba1261974e07f3c9, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 455646, guid: ee5f49d0f8acb304ba1261974e07f3c9, type: 3}
       propertyPath: m_RootOrder
@@ -892,6 +928,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Stall_Cloth_07
       objectReference: {fileID: 0}
+    - target: {fileID: 165020, guid: db2877d391cb4f34aa237a1de88236ee, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 417568, guid: db2877d391cb4f34aa237a1de88236ee, type: 3}
       propertyPath: m_RootOrder
       value: 195
@@ -954,6 +994,10 @@ PrefabInstance:
     - target: {fileID: 118094, guid: 366500f45afe5254fa03c07da019e6b8, type: 3}
       propertyPath: m_Name
       value: SM_Prop_FlowerHanging_26
+      objectReference: {fileID: 0}
+    - target: {fileID: 118094, guid: 366500f45afe5254fa03c07da019e6b8, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 499884, guid: 366500f45afe5254fa03c07da019e6b8, type: 3}
       propertyPath: m_RootOrder
@@ -1018,6 +1062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_FlowerHanging_42
       objectReference: {fileID: 0}
+    - target: {fileID: 100224, guid: c0b95b1e260a33244acb7ff8cbe62862, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 493836, guid: c0b95b1e260a33244acb7ff8cbe62862, type: 3}
       propertyPath: m_RootOrder
       value: 687
@@ -1080,6 +1128,10 @@ PrefabInstance:
     - target: {fileID: 113324, guid: 812ad24640b275e4ea4def8020341e44, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Door_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 113324, guid: 812ad24640b275e4ea4def8020341e44, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 488496, guid: 812ad24640b275e4ea4def8020341e44, type: 3}
       propertyPath: m_RootOrder
@@ -1144,6 +1196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Window_23
       objectReference: {fileID: 0}
+    - target: {fileID: 147578, guid: 490c945eb7eda5f49a733dd95201f33f, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 477376, guid: 490c945eb7eda5f49a733dd95201f33f, type: 3}
       propertyPath: m_RootOrder
       value: 310
@@ -1203,6 +1259,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1589499822687600554}
     m_Modifications:
+    - target: {fileID: 107830, guid: c64710ec183cb53439b5bd642a6dfb1d, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 406580, guid: c64710ec183cb53439b5bd642a6dfb1d, type: 3}
       propertyPath: m_RootOrder
       value: 382
@@ -1265,6 +1325,10 @@ PrefabInstance:
     - target: {fileID: 196388, guid: 9fe63ff9933af7642a3ee957dde531f1, type: 3}
       propertyPath: m_Name
       value: SM_Env_Vines_Wall_14
+      objectReference: {fileID: 0}
+    - target: {fileID: 196388, guid: 9fe63ff9933af7642a3ee957dde531f1, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 427006, guid: 9fe63ff9933af7642a3ee957dde531f1, type: 3}
       propertyPath: m_RootOrder
@@ -1329,6 +1393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Window_07
       objectReference: {fileID: 0}
+    - target: {fileID: 114506, guid: 9195576c63ead3349b47d37f2b12546e, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 463424, guid: 9195576c63ead3349b47d37f2b12546e, type: 3}
       propertyPath: m_RootOrder
       value: 492
@@ -1391,6 +1459,10 @@ PrefabInstance:
     - target: {fileID: 135414, guid: 8ab359974e5a5e34da4da3c9734e1e51, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Cuba_Balcony_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 135414, guid: 8ab359974e5a5e34da4da3c9734e1e51, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 420866, guid: 8ab359974e5a5e34da4da3c9734e1e51, type: 3}
       propertyPath: m_RootOrder
@@ -1455,6 +1527,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Shanty_BuildingAttachment_15
       objectReference: {fileID: 0}
+    - target: {fileID: 119012, guid: bbe455b5c16691c4f92f6b6e33799183, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 415548, guid: bbe455b5c16691c4f92f6b6e33799183, type: 3}
       propertyPath: m_RootOrder
       value: 731
@@ -1514,6 +1590,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1589499822687600554}
     m_Modifications:
+    - target: {fileID: 197218, guid: c685eec9c845a914f87adb082e8691fc, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 417226, guid: c685eec9c845a914f87adb082e8691fc, type: 3}
       propertyPath: m_RootOrder
       value: 380
@@ -1576,6 +1656,10 @@ PrefabInstance:
     - target: {fileID: 151712, guid: a7b2d2b39fd448040aaa9dfc5083d017, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Chimney_28
+      objectReference: {fileID: 0}
+    - target: {fileID: 151712, guid: a7b2d2b39fd448040aaa9dfc5083d017, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 496932, guid: a7b2d2b39fd448040aaa9dfc5083d017, type: 3}
       propertyPath: m_RootOrder
@@ -1640,6 +1724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Window_Top_05
       objectReference: {fileID: 0}
+    - target: {fileID: 158508, guid: 181b4d6fcd827d14c8d70223b8e2c7a2, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 447104, guid: 181b4d6fcd827d14c8d70223b8e2c7a2, type: 3}
       propertyPath: m_RootOrder
       value: 278
@@ -1702,6 +1790,10 @@ PrefabInstance:
     - target: {fileID: 119012, guid: bbe455b5c16691c4f92f6b6e33799183, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Shanty_BuildingAttachment_34
+      objectReference: {fileID: 0}
+    - target: {fileID: 119012, guid: bbe455b5c16691c4f92f6b6e33799183, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 415548, guid: bbe455b5c16691c4f92f6b6e33799183, type: 3}
       propertyPath: m_RootOrder
@@ -1766,6 +1858,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Cuba_Room_Long_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 197218, guid: c685eec9c845a914f87adb082e8691fc, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 417226, guid: c685eec9c845a914f87adb082e8691fc, type: 3}
       propertyPath: m_RootOrder
       value: 384
@@ -1828,6 +1924,10 @@ PrefabInstance:
     - target: {fileID: 147578, guid: 490c945eb7eda5f49a733dd95201f33f, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Window_25
+      objectReference: {fileID: 0}
+    - target: {fileID: 147578, guid: 490c945eb7eda5f49a733dd95201f33f, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 477376, guid: 490c945eb7eda5f49a733dd95201f33f, type: 3}
       propertyPath: m_RootOrder
@@ -1892,6 +1992,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Door_07
       objectReference: {fileID: 0}
+    - target: {fileID: 113324, guid: 812ad24640b275e4ea4def8020341e44, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 488496, guid: 812ad24640b275e4ea4def8020341e44, type: 3}
       propertyPath: m_RootOrder
       value: 667
@@ -1955,6 +2059,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Shanty_BuildingAttachment_16
       objectReference: {fileID: 0}
+    - target: {fileID: 119012, guid: bbe455b5c16691c4f92f6b6e33799183, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 415548, guid: bbe455b5c16691c4f92f6b6e33799183, type: 3}
       propertyPath: m_RootOrder
       value: 684
@@ -2014,6 +2122,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1589499822687600554}
     m_Modifications:
+    - target: {fileID: 159488, guid: 8412e3084585e764e9878608854b182d, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 413380, guid: 8412e3084585e764e9878608854b182d, type: 3}
       propertyPath: m_RootOrder
       value: 385
@@ -2077,6 +2189,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Planter_12
       objectReference: {fileID: 0}
+    - target: {fileID: 101550, guid: a94e2e81703207e41829ec41da4aa66b, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 487698, guid: a94e2e81703207e41829ec41da4aa66b, type: 3}
       propertyPath: m_RootOrder
       value: 447
@@ -2139,6 +2255,10 @@ PrefabInstance:
     - target: {fileID: 161636, guid: e083095d1873f8b488e6381dbb9c2c15, type: 3}
       propertyPath: m_Name
       value: SM_Env_Vines_Wall_28
+      objectReference: {fileID: 0}
+    - target: {fileID: 161636, guid: e083095d1873f8b488e6381dbb9c2c15, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 433452, guid: e083095d1873f8b488e6381dbb9c2c15, type: 3}
       propertyPath: m_RootOrder
@@ -2252,6 +2372,10 @@ PrefabInstance:
       value: BuildingSelection
       objectReference: {fileID: 0}
     - target: {fileID: 7677189523646485271, guid: 6f56b9a2833fe534398cfb75f7edf572, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7677189523646485271, guid: 6f56b9a2833fe534398cfb75f7edf572, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -2276,6 +2400,10 @@ PrefabInstance:
     - target: {fileID: 155300, guid: 5aca5137f02c6a24384afa5606a76365, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Planter_15
+      objectReference: {fileID: 0}
+    - target: {fileID: 155300, guid: 5aca5137f02c6a24384afa5606a76365, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 490892, guid: 5aca5137f02c6a24384afa5606a76365, type: 3}
       propertyPath: m_RootOrder
@@ -2336,6 +2464,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1589499822687600554}
     m_Modifications:
+    - target: {fileID: 140670, guid: ea5f51804ee2dbb4080334638e7221ad, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 460444, guid: ea5f51804ee2dbb4080334638e7221ad, type: 3}
       propertyPath: m_RootOrder
       value: 192
@@ -2398,6 +2530,10 @@ PrefabInstance:
     - target: {fileID: 129692, guid: 9f9e04b362343df49bf493726e4974e9, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Cuba_Roof_Square_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 129692, guid: 9f9e04b362343df49bf493726e4974e9, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 481778, guid: 9f9e04b362343df49bf493726e4974e9, type: 3}
       propertyPath: m_RootOrder
@@ -2462,6 +2598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Lantern_Attachment_26
       objectReference: {fileID: 0}
+    - target: {fileID: 145908, guid: bb677ec00087db84e9c3dcc9bb02a479, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 418664, guid: bb677ec00087db84e9c3dcc9bb02a479, type: 3}
       propertyPath: m_RootOrder
       value: 637
@@ -2524,6 +2664,10 @@ PrefabInstance:
     - target: {fileID: 119012, guid: bbe455b5c16691c4f92f6b6e33799183, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Shanty_BuildingAttachment_35
+      objectReference: {fileID: 0}
+    - target: {fileID: 119012, guid: bbe455b5c16691c4f92f6b6e33799183, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 415548, guid: bbe455b5c16691c4f92f6b6e33799183, type: 3}
       propertyPath: m_RootOrder
@@ -2588,6 +2732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Shanty_BuildingAttachment_24
       objectReference: {fileID: 0}
+    - target: {fileID: 119012, guid: bbe455b5c16691c4f92f6b6e33799183, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 415548, guid: bbe455b5c16691c4f92f6b6e33799183, type: 3}
       propertyPath: m_RootOrder
       value: 446
@@ -2651,6 +2799,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_FlowerHanging_44
       objectReference: {fileID: 0}
+    - target: {fileID: 100224, guid: c0b95b1e260a33244acb7ff8cbe62862, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 493836, guid: c0b95b1e260a33244acb7ff8cbe62862, type: 3}
       propertyPath: m_RootOrder
       value: 682
@@ -2710,6 +2862,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1589499822687600554}
     m_Modifications:
+    - target: {fileID: 135608, guid: 3cb0fc753a489e345a25de2acbfd875a, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 452498, guid: 3cb0fc753a489e345a25de2acbfd875a, type: 3}
       propertyPath: m_RootOrder
       value: 383
@@ -2772,6 +2928,10 @@ PrefabInstance:
     - target: {fileID: 114506, guid: 9195576c63ead3349b47d37f2b12546e, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Window_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 114506, guid: 9195576c63ead3349b47d37f2b12546e, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 463424, guid: 9195576c63ead3349b47d37f2b12546e, type: 3}
       propertyPath: m_RootOrder
@@ -2836,6 +2996,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Shanty_BuildingAttachment_27
       objectReference: {fileID: 0}
+    - target: {fileID: 119012, guid: bbe455b5c16691c4f92f6b6e33799183, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 415548, guid: bbe455b5c16691c4f92f6b6e33799183, type: 3}
       propertyPath: m_RootOrder
       value: 636
@@ -2899,6 +3063,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Vines_Wall_10
       objectReference: {fileID: 0}
+    - target: {fileID: 196388, guid: 9fe63ff9933af7642a3ee957dde531f1, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 427006, guid: 9fe63ff9933af7642a3ee957dde531f1, type: 3}
       propertyPath: m_RootOrder
       value: 137
@@ -2961,6 +3129,10 @@ PrefabInstance:
     - target: {fileID: 119012, guid: bbe455b5c16691c4f92f6b6e33799183, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Shanty_BuildingAttachment_25
+      objectReference: {fileID: 0}
+    - target: {fileID: 119012, guid: bbe455b5c16691c4f92f6b6e33799183, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 415548, guid: bbe455b5c16691c4f92f6b6e33799183, type: 3}
       propertyPath: m_RootOrder

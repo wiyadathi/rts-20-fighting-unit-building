@@ -26,7 +26,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6959227294952189581}
@@ -60,9 +60,9 @@ GameObject:
   - component: {fileID: 5700208806010557302}
   - component: {fileID: 2082698721260249278}
   - component: {fileID: 5957260814430328634}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Br_FortTower
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,10 +96,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad375a2248db8a44ba35e2cda480ab48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  structureName: 
-  structurePic: {fileID: 0}
-  curHP: 0
-  maxHP: 0
+  structureName: FortTower
+  structurePic: {fileID: 21300000, guid: 8d209f391cf4e1f43ab2e591842c41c1, type: 3}
+  curHP: 1
+  maxHP: 100
   faction: {fileID: 0}
   structureCost:
     food: 0
@@ -109,7 +109,8 @@ MonoBehaviour:
   selectionVisual: {fileID: 5754643951827387585}
   spawnPoint: {fileID: 0}
   rallyPoint: {fileID: 0}
-  unitPrefabs: []
+  unitPrefabs:
+  - {fileID: 186328, guid: 23a54e6b8db60dc4b841b2f9cd0baa35, type: 3}
   recruitList: []
   unitTimer: 0
   curUnitProgress: 0
@@ -184,10 +185,10 @@ NavMeshObstacle:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7816634179248019389}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Shape: 0
-  m_Extents: {x: 17.5, y: 1, z: 17.5}
+  m_Extents: {x: 10, y: 1, z: 10}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
@@ -453,7 +454,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6539628366457385943, guid: 2656fbd6d99dd42489f270d6a2ecfbc3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
