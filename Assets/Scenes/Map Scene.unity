@@ -1894,6 +1894,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FranceSoldier (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4239696731252391952, guid: 43e9b70909895884c9774f31beb8977e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2645,6 +2649,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FranceSoldier (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4239696731252391952, guid: 43e9b70909895884c9774f31beb8977e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3042,6 +3050,10 @@ PrefabInstance:
     - target: {fileID: 4239696731252391952, guid: 43e9b70909895884c9774f31beb8977e, type: 3}
       propertyPath: m_Name
       value: FranceSoldier (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239696731252391952, guid: 43e9b70909895884c9774f31beb8977e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6787,7 +6799,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1249988190
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7628,6 +7640,10 @@ PrefabInstance:
     - target: {fileID: 4239696731252391952, guid: 43e9b70909895884c9774f31beb8977e, type: 3}
       propertyPath: m_Name
       value: FranceSoldier (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239696731252391952, guid: 43e9b70909895884c9774f31beb8977e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8608,6 +8624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FranceSoldier (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4239696731252391952, guid: 43e9b70909895884c9774f31beb8977e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8846,6 +8866,10 @@ PrefabInstance:
     - target: {fileID: 4239696731252391952, guid: 43e9b70909895884c9774f31beb8977e, type: 3}
       propertyPath: m_Name
       value: FranceSoldier (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239696731252391952, guid: 43e9b70909895884c9774f31beb8977e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9395,6 +9419,10 @@ PrefabInstance:
     - target: {fileID: 4239696731252391952, guid: 43e9b70909895884c9774f31beb8977e, type: 3}
       propertyPath: m_Name
       value: FranceSoldier (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239696731252391952, guid: 43e9b70909895884c9774f31beb8977e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
