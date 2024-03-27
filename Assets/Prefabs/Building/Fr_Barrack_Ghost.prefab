@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6199230516749840288}
   - component: {fileID: 6097029987800627364}
   m_Layer: 2
-  m_Name: Br_Barrack_Ghost
+  m_Name: Fr_Barrack_Ghost
   m_TagString: GhostBuilding
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

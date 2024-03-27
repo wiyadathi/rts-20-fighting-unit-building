@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 6199230516749840288}
   - component: {fileID: 2879181645284367411}
   m_Layer: 7
-  m_Name: Br_Barrack
+  m_Name: Fr_Barrack
   m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -127,7 +127,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 0}
   rallyPoint: {fileID: 0}
   unitPrefabs:
-  - {fileID: 186328, guid: 23eba7a7c1e6c0f47af632af6c7f1f87, type: 3}
+  - {fileID: 4239696731252391952, guid: 43e9b70909895884c9774f31beb8977e, type: 3}
   recruitList: []
   unitTimer: 0
   curUnitProgress: 0

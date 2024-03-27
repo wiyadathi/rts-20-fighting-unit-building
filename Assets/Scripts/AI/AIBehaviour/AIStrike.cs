@@ -20,12 +20,7 @@ public class AIStrike : AIBehaviour
         support = gameObject.GetComponent<AISupport>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    
+   
     public override float GetWeight()
     {
         if (timePassed < timeLimit)
