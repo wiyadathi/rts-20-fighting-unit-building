@@ -28,6 +28,8 @@ public class UnitSelect : MonoBehaviour
     private Vector2 oldAnchoredPos;//Box old anchored position
     private Vector2 startPos;//point where mouse is down
 
+    float timer = 0f;
+    float timeLimit = 0.5f;
     
     private Camera cam;
     private Faction faction;
@@ -82,6 +84,13 @@ public class UnitSelect : MonoBehaviour
                     TrySelect(Input.mousePosition);
                 }
 
+        timer += Time.deltaTime;
+
+        if (timer >= timeLimit)
+        {
+            timer = 0f;
+            UpdateUI();
+        }
     }
     
     private void SelectUnit(RaycastHit hit)
@@ -159,8 +168,11 @@ public class UnitSelect : MonoBehaviour
     private void ClearEverything()
         {
             ClearAllSelectionVisual();
+
             curUnits.Clear();
             curBuilding = null;
+        curResource = null;
+        curEnemy = null;
 
             //Clear UI
             InfoManager.instance.ClearAllInfo();
@@ -268,5 +280,21 @@ public class UnitSelect : MonoBehaviour
             InfoManager.instance.ShowEnemyAllInfo(b);
         }
 
-        
+    private void UpdateUI()
+    {
+        if (curUnits.Count == 1)
+            ShowUnit(curUnits[0]);
+        else if (curEnemy != null)
+            ShowEnemyUnit(curEnemy);
+        else if (curResource != null)
+            ShowResource();
+        else if (curBuilding != null)
+        {
+            if (GameManager.instance.MyFaction.IsMyBuilding(curBuilding))
+                ShowBuilding(curBuilding);//Show building info
+            else
+                ShowEnemyBuilding(curBuilding);
+        }
+    }
+
 }
