@@ -91,6 +91,13 @@ public class Building : Structure
         if (unit == null) 
             return;
 
+        //เพิ่มการ Debug กรณีลืมลาก Faction ใส่ตัวแปร Faction ใน Unity
+        if (faction == null)
+        {
+            Debug.Log("Faction is missing in unity");
+        }
+
+
         if (!faction.CheckUnitCost(unit)) //not enough resources
             return;
 
