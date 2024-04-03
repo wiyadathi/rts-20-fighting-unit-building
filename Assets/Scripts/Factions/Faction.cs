@@ -24,6 +24,11 @@ public class Faction : MonoBehaviour
     [SerializeField] private GameObject[] buildingPrefabs;
     public GameObject[] BuildingPrefabs { get { return buildingPrefabs; } }
 
+    //==26.27==================
+    [SerializeField] private GameObject[] ghostBuildingPrefabs;
+    public GameObject[] GhostBuildingPrefabs { get { return ghostBuildingPrefabs; } }
+    //======
+
     [SerializeField] private GameObject[] unitPrefabs;
     public GameObject[] UnitPrefabs { get { return unitPrefabs; } }
 
@@ -69,7 +74,8 @@ public class Faction : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //26.42
+        UpdateHousingLimit();
     }
 
     // Update is called once per frame
@@ -165,6 +171,12 @@ public class Faction : MonoBehaviour
     {
         foreach (Building b in aliveBuildings)
         {
+            //26.26====
+            if (b == null)
+            {
+                continue;
+            }//=======
+            
             if (b.IsHQ)
                 return b.SpawnPoint.position;
         }
@@ -250,7 +262,9 @@ public class Faction : MonoBehaviour
         else if (unitLimit < 0)
             unitLimit = 0;
 
-        MainUI.instance.UpdateAllResource(this);
+        //==26.41====
+        if (this == GameManager.instance.MyFaction)
+            MainUI.instance.UpdateAllResource(this);
     }
 
     

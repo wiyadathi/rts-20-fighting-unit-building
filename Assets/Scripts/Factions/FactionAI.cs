@@ -63,6 +63,7 @@ public class FactionAI : MonoBehaviour
 
         UpdateImportantBuilding();
         WorkerFindResource(ResourceType.Wood, 3);
+        //ตรงนี้สามารถเขียนเพิ่มได้ว่าจะให้สร้าง Resource อะไร  เข่น (...Type.Food, 2)
 
     }
 
